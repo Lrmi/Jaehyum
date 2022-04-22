@@ -6,7 +6,7 @@ public class OverridingToString {
 		
 		System.out.println(c1);
 		System.out.println();
-		
+
 		System.out.println(c2);
 	}
 }
