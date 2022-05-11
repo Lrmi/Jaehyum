@@ -3,108 +3,107 @@ package menuView3;
 public class menubar extends Menu {
 	public void bar() {
 		CoffeemenuDTO c = new CoffeemenuDTO() ;
-		//1ë²ˆ
-		
-		c.setNo(1);
-		c.setMenu("ì•„ë©”ë¦¬ì¹´ë…¸");
+		//1¹ø
+		c.setNo("1");
+		c.setMenu("¾Æ¸Ş¸®Ä«³ë");
 		c.setKcal(5);
 		c.setAmount(1800);
 		list.add(c);
-		//2ë²ˆ
+		//2¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(2);
-		c.setMenu("ì¹´ë¼ë©œë§ˆë¼ì•¼ë˜");
+		c.setNo("2");
+		c.setMenu("Ä«¶ó¸á¸¶³¢¾ß¶Ç");
 		c.setKcal(300);
 		c.setAmount(3300);
 		list.add(c);
-		//3ë²ˆ
+		//3¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(3);
-		c.setMenu("ì¹´í˜ëª¨ì¹´");
+		c.setNo("3");
+		c.setMenu("Ä«Æä¸ğÄ«");
 		c.setKcal(300);
 		c.setAmount(3500);
 		list.add(c);
-		//4ë²ˆ
+		//4¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(4);
-		c.setMenu("ìë°”ì¹©í”„ë¼í‘¸ì¹˜ë…¸");
+		c.setNo("4");
+		c.setMenu("ÀÚ¹ÙÄ¨ÇÁ¶óÇªÄ¡³ë");
 		c.setKcal(340);
 		c.setAmount(4800);
 		list.add(c);
-		//5ë²ˆ
+		//5¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(5);
-		c.setMenu("ì¹´í‘¸ì¹˜ë…¸");
+		c.setNo("5");
+		c.setMenu("Ä«ÇªÄ¡³ë");
 		c.setKcal(150);
 		c.setAmount(3300);
 		list.add(c);
-		//6ë²ˆ
+		//6¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(6);
-		c.setMenu("í—¤ì´ì¦ë„› ì•„ë©”ë¦¬ì¹´ë…¸");
+		c.setNo("6");
+		c.setMenu("ÇìÀÌÁñ³Ó ¾Æ¸Ş¸®Ä«³ë");
 		c.setKcal(70);
 		c.setAmount(2200);
 		list.add(c);
-		//7ë²ˆ
+		//7¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(7);
-		c.setMenu("ë”¸ê¸°ìŠ¤ë¬´ë””");
+		c.setNo("7");
+		c.setMenu("µş±â½º¹«µğ");
 		c.setKcal(180);
 		c.setAmount(6000);
 		list.add(c);
-		//8ë²ˆ
+		//8¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(8);
-		c.setMenu("ìëª½ìŠ¤ë¬´ë””");
+		c.setNo("8");
+		c.setMenu("ÀÚ¸ù½º¹«µğ");
 		c.setKcal(200);
 		c.setAmount(6000);
 		list.add(c);
-		//9ë²ˆ
+		//9¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(9);
-		c.setMenu("ë³µìˆ­ì•„ ì•„ì´ìŠ¤í‹°");
+		c.setNo("9");
+		c.setMenu("º¹¼ş¾Æ ¾ÆÀÌ½ºÆ¼");
 		c.setKcal(70);
 		c.setAmount(2800);
 		list.add(c);
-		//10ë²ˆ
+		//10¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(10);
-		c.setMenu("ë°”ë‹ë¼ë¼ë–¼");
+		c.setNo("10");
+		c.setMenu("¹Ù´Ò¶ó¶ó¶¼");
 		c.setKcal(180);
 		c.setAmount(4800);
 		list.add(c);
-		//11ë²ˆ
+		//11¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(11);
-		c.setMenu("ì•„í¬ê°€í† ");
+		c.setNo("11");
+		c.setMenu("¾ÆÆ÷°¡Åä");
 		c.setKcal(381);
 		c.setAmount(3800);
 		list.add(c);
-		//12ë²ˆ
+		//12¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(12);
-		c.setMenu("ì—ìŠ¤í”„ë ˆì†Œ");
+		c.setNo("12");
+		c.setMenu("¿¡½ºÇÁ·¹¼Ò");
 		c.setKcal(10);
 		c.setAmount(3600);
 		list.add(c);
-		//13ë²ˆ
+		//13¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(13);
-		c.setMenu("ì¡°ê°ì¼€ì´í¬");
+		c.setNo("13");
+		c.setMenu("Á¶°¢ÄÉÀÌÅ©");
 		c.setKcal(775);
 		c.setAmount(6000);
 		list.add(c);
-		//14ë²ˆ
+		//14¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(14);
-		c.setMenu("ë§ˆì¹´ë¡±");
+		c.setNo("14");
+		c.setMenu("¸¶Ä«·Õ");
 		c.setKcal(58);
 		c.setAmount(2000);
 		list.add(c);
-		//15ë²ˆ
+		//15¹ø
 		c= new CoffeemenuDTO();
-		c.setNo(15);
-		c.setMenu("íŒ¥ë¹™ìˆ˜");
+		c.setNo("15");
+		c.setMenu("ÆÏºù¼ö");
 		c.setKcal(400);
 		c.setAmount(10000);
 		list.add(c);

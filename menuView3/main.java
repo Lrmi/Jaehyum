@@ -1,12 +1,11 @@
 package menuView3;
-//테스트
+//�׽�Ʈ
 
 public class main {
 	public static void main(String[] args) {
 		
 		Orderbar o = new Orderbar();
 		o.member();
-		
 	}
 }
 

@@ -1,23 +1,29 @@
 package menuView3;
 
 public class CoffeemenuDTO {
-	private String menu; //ë©”ë‰´
-	private int amount; //ê°€ê²©
-	private int kcal; //ì¹¼ë¡œë¦¬
-	private int no = 0; //ë²ˆí˜¸
+	private String no ; //¹øÈ£
+	private String menu; //¸Þ´º
+	private int price; //°¡°Ý
+	private int amount; // ¼ö·®
+	private int kcal; //Ä®·Î¸®
 	
-	public int getNo() {
-		return no ;
+	public String getNo() {
+		return no;
 	}
-	public void setNo(int no) {
+	public void setNo(String no) {
 		this.no = no;
 	}
-	
 	public String getMenu() {
 		return menu;
 	}
 	public void setMenu(String menu) {
 		this.menu = menu;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	public int getAmount() {
 		return amount;
@@ -33,7 +39,7 @@ public class CoffeemenuDTO {
 	}
 	@Override
 	public String toString() {
-		return "ë©”ë‰´["+no +"." +menu +", ì¹¼ë¡œë¦¬=" +kcal +",ê°€ê²©="+amount+"]";
+		return "¸Þ´º["+no +"." +menu +", Ä®·Î¸®=" +kcal +",¼ö·®="+amount+",°¡°Ý ="+price+"]";
 	}
 }
 	
